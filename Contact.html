@@ -44,9 +44,44 @@
 
     <main>
         <div class="container">
-            <div class="jumbotron">
-                <h1 class="display-4">Contact Me!</h1>
+            <h1 class="display-4">Contact Me!</h1>
+            <hr>
+            <form>
+              <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" aria-describedby="firstname"
+                placeholder="Enter Your First Name" required>
+              </div>                    
+
+              <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" aria-describedby="lastname"
+                placeholder="Enter Your Last Name" required>
               </div>
+
+              <div class="form-group">
+                <label for="contactNumber">Contact Number</label>
+                <input type="tel" class="form-control" id="contactNumber" name="contactNumber" aria-describedby="contactNumber"
+                placeholder="Enter Your Contact Number" required>
+              </div>
+
+
+              <div class="form-group">
+                <label for="emailAddress">Email address</label>
+                <input type="email" class="form-control" id="emailAddress" name="emailAddress" aria-describedby="emailAddress"
+                placeholder="Enter your Email Address" required>
+              </div>
+
+              <div class="form-group">
+                <label for="textArea">Your Message</label>
+                <textarea class="form-control" id="textArea" name="textArea" rows="3" aria-describedby="emailAddress"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg"> <i class="fas fa-envelope-square"></i> Send</button>
+
+              <button type="reset" class="btn btn-warning btn-lg"> <i class="fas fa-trash"></i></i> Reset</button>
+            </form>
+              
         </div>
     </main>
     
