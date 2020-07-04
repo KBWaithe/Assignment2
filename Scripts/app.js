@@ -46,10 +46,10 @@
                 document.getElementById("myName").innerHTML = myName;
             }
     
-            if(document.getElementById("welcomeMessage"))  
+            if(document.getElementById("welcome"))  
             
             {let welcomeMessage = "Welcome!";
-                document.getElementById("welcomeMessage").innerHTML = welcomeMessage;
+                document.getElementById("welcome").innerHTML = welcome;
             }
 
             if(document.getElementById("aboutText"))
@@ -79,4 +79,4 @@ document.getElementById("aboutText").innerText = aboutText;
 
     window.addEventListener("load", Start);
 
-})();
+}})
