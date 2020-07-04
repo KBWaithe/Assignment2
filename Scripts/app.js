@@ -31,6 +31,32 @@
         // Step 1. Hook into the element
             let jumbotron = document.getElementsByClassName("jumbotron")[0];
 
+            if(jumbotron)
+            {
+        // Adding content to biopage
+        aboutMe();
+        function aboutMe(){
+        
+            if(document.getElementById("myName"))  
+            
+            {let myName = "Kris Waithe";
+                document.getElementById("myName").innerHTML = myName;
+            }
+    
+            if(document.getElementById("welcomeMessage"))  
+            
+            {let welcomeMessage = "Welcome to my homepage";
+                document.getElementById("welcomeMessage").innerHTML = welcomeMessage;
+            }
+if(document.getElementById("aboutText"))
+{let aboutText = 
+`I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech. I have always found interest in the tech side of everything
+and I look forward to learning much more as a student at Centennial College!
+ `;
+document.getElementById("aboutText").innerText = aboutText;
+}
+            
+
         // Step 2. Create a new element
             let newParagraph = document.createElement("p");
 
@@ -39,6 +65,7 @@
 
         // Step 4. Attach the new element
         jumbotron.appendChild(newParagraph);
+    }
 
     } 
 
