@@ -42,13 +42,15 @@
         
             if(document.getElementById("myName"))  
             
-            {let myName = "Kris Waithe";
+            {
+                let myName = "Kris Waithe";
                 document.getElementById("myName").innerHTML = myName;
             }
     
             if(document.getElementById("welcome"))  
             
-            {let welcomeMessage = "Welcome!";
+            {
+                let welcomeMessage = "Welcome!";
                 document.getElementById("welcome").innerHTML = welcome;
             }
 
