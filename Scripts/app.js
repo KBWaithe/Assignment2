@@ -38,7 +38,7 @@
             {
         // Adding content to biopage
         aboutMe();
-        function aboutMe(){
+        function aboutContent(){
         
             if(document.getElementById("myName"))  
             
