@@ -1,11 +1,11 @@
 writeAboutMe();
 function writeAboutMe(){
 if(document.getElementById("myName"))  
-{let myName = "Kris Waithe";
+{let myName = "My name is Kris Waithe";
 document.getElementById("myName").innerHTML = myName;
 }
 if(document.getElementById("welcomeMessage"))  
-{let welcomeMessage = "Welcome";
+{let welcomeMessage = "Welcome to my portfolio";
 document.getElementById("welcomeMessage").innerHTML = welcomeMessage;
 }
 if(document.getElementById("aboutText"))
