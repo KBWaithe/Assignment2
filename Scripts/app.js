@@ -1,13 +1,20 @@
-function writeAboutMe() {
-  let myName = "Kris Waithe",
-    welcomeMessage = "Welcome!",
-    aboutText = `I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech. 
-    I have always found interest in the tech side of everything and I look forward to learning much more as a student at Centennial College!
-    `;
-
-  document.getElementById("myName").innerHTML = myName;
-  document.getElementById("welcome").innerHTML = welcomeMessage;
-  document.getElementById("aboutText").innerHTML = aboutText;
+writeAboutMe();
+function writeAboutMe(){
+if(document.getElementById("myName"))  
+{let myName = "Kris Waithe";
+document.getElementById("myName").innerHTML = myName;
+}
+if(document.getElementById("welcomeMessage"))  
+{let welcomeMessage = "Welcome";
+document.getElementById("welcomeMessage").innerHTML = welcomeMessage;
+}
+if(document.getElementById("aboutText"))
+{let aboutText = 
+`I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech. 
+ I have always found interest in the tech side of everything and I look forward to learning much more as a student at Centennial College!
+ `;
+document.getElementById("aboutText").innerText = aboutText;
+}
 }
 
 // named function
