@@ -1,7 +1,10 @@
 // IIFE -Immediately Ivoked Function Expression
 (function(){
 
-    
+    /* COMP125(Sec.004) - Assignment 2
+    Student Name - Kristian Waithe
+    App.Js used for Mini Portfolio functionality    
+    */
 
 
     // named function
@@ -45,14 +48,16 @@
     
             if(document.getElementById("welcomeMessage"))  
             
-            {let welcomeMessage = "Welcome to my homepage";
+            {let welcomeMessage = "Welcome!";
                 document.getElementById("welcomeMessage").innerHTML = welcomeMessage;
             }
-if(document.getElementById("aboutText"))
-{let aboutText = 
-`I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech. I have always found interest in the tech side of everything
-and I look forward to learning much more as a student at Centennial College!
- `;
+
+            if(document.getElementById("aboutText"))
+
+            {let aboutText = 
+                `I'm a second semester Software Engineering Tecnologies student looking to further my knowledge in the field of tech. 
+                I have always found interest in the tech side of everything and I look forward to learning much more as a student at Centennial College!
+                `;
 document.getElementById("aboutText").innerText = aboutText;
 }
             
