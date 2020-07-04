@@ -36,9 +36,9 @@
 
             if(jumbotron)
             {
-        // Adding content to biopage
+        // Adding content to landing page
         aboutMe();
-        function aboutContent(){
+        function aboutMe(){
         
             if(document.getElementById("myName"))  
             
