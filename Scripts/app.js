@@ -75,7 +75,8 @@ I'm a casual guitar player who's played many instruments since middle school. Re
 I've dabbled in music since I was a child and music as well as playing instruments is a gigantic part of who it is I am. 
 
 2nd Project - Streaming
-I've been a part time streamer for around 2 years now, first getting into it while competiting in a few online games. I've played competitively in multiple games over the years.
+I've been a part time streamer for around 2 years now, first getting into it while competiting in a few online games. 
+I've played competitively in multiple games over the years.
 I look forward to having a better schedule that will allow me to grow my community further.
 
 Third Project - Video Games
