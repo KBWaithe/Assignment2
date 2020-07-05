@@ -1,4 +1,4 @@
-// IIFE -Immediately Ivoked Function Expression
+// IIFE -Immediately Invoked Function Expression
 (function () {
     /* COMP125(Sec.004) - Assignment 2
         Student Name - Kristian Waithe
